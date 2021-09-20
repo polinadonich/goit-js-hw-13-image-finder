@@ -73,7 +73,7 @@ function clearGalleryList() {
   refs.getGalleryList.innerHTML = '';
 }
 
-// для кнопки показать еще
+
 function scroll() {
     const element = document.getElementById('my-element-selector');
 
@@ -83,7 +83,7 @@ function scroll() {
     });
 }
 
-// кнопка "Показать еще"
+
 function loadMoreBtn() {
     refs.getBtn.removeAttribute('hidden');
     refs.getBtn.addEventListener('click', fetchImgList);
