@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <title>Найди картинку</title>
+    <title>Find a picture</title>
   </head>
   <body>
+    <include src="./templates/form.hbs"></include>
+    <div class="gallery-list" id="my-element-selector"></div>
+
+    <button type="button" class="btn" hidden="true">
+      <span class="label">Показать ещё</span>
+    </button>
     <script src="./index.js"></script>
   </body>
 </html>
