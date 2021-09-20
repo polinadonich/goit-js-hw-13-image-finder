@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Find a picture</title>
   </head>
   <body>
+    <h1 class="title">Find a picture</h1>
     <include src="./templates/form.hbs"></include>
     <div class="gallery-list" id="my-element-selector"></div>
 
     <button type="button" class="btn" hidden="true">
-      <span class="label">Показать ещё</span>
+      <span class="label">Load more</span>
     </button>
     <script src="./index.js"></script>
   </body>
